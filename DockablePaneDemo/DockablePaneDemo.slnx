@@ -1,0 +1,21 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="DB2019" />
+    <BuildType Name="DB2020" />
+    <BuildType Name="DB2021" />
+    <BuildType Name="DB2022" />
+    <BuildType Name="DB2023" />
+    <BuildType Name="DB2024" />
+    <BuildType Name="DB2025" />
+    <BuildType Name="DB2026" />
+    <BuildType Name="RL2019" />
+    <BuildType Name="RL2020" />
+    <BuildType Name="RL2021" />
+    <BuildType Name="RL2022" />
+    <BuildType Name="RL2023" />
+    <BuildType Name="RL2024" />
+    <BuildType Name="RL2025" />
+    <BuildType Name="RL2026" />
+  </Configurations>
+  <Project Path="DockablePaneDemo/DockablePaneDemo.csproj" />
+</Solution>

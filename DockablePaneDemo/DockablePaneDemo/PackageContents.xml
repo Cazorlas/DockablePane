@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="Revit"
+                    ProductType="Application"
+                    Name="DockablePaneDemo"
+                    AppVersion="1.0"
+					Description="Add-ins Revit"
+                    ProductCode="{ea50694b-922c-4b29-b292-467b8e1d54bc}"
+					Author="Cazorlas"
+					OnlineDocumentation="https://paperengineer.runasp.net/">
+	
+	<CompanyDetails Name="Paper Engineer" Url="https://paperengineer.runasp.net/" Email="trinhvutuanhung@gmail.com" />
+	<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2026" />
+
+	<Components Description="2019">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2019" />
+		<ComponentEntry AppName="DockablePaneDemo 2019"
+						Version="1.0.0"
+						ModuleName="./Contents/2019/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2020" />
+	</Components>
+
+	<Components Description="2020">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2020" SeriesMax="R2020" />
+		<ComponentEntry AppName="DockablePaneDemo 2020"
+						Version="1.0.0"
+						ModuleName="./Contents/2020/DockablePaneDemo.addin"
+						AppDescription="DockablePaneDemo 2020" />
+	</Components>
+
+	<Components Description="2021">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2021" SeriesMax="R2021" />
+		<ComponentEntry AppName="DockablePaneDemo 2021"
+						Version="1.0.0"
+						ModuleName="./Contents/2021/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2021" />
+	</Components>	
+	
+	<Components Description="2022">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022" />
+		<ComponentEntry AppName="Add-ins Revit 2022"
+						Version="1.0.0"
+						ModuleName="./Contents/2022/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2022" />
+	</Components>
+
+	<Components Description="2023">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2023" SeriesMax="R2023" />
+		<ComponentEntry AppName="DockablePaneDemo 2023"
+						Version="1.0.0"
+						ModuleName="./Contents/2023/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2023" />
+	</Components>
+
+	<Components Description="2024">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2024" SeriesMax="R2024" />
+		<ComponentEntry AppName="DockablePaneDemo 2024"
+						Version="1.0.0"
+						ModuleName="./Contents/2024/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2024" />
+	</Components>
+
+	<Components Description="2025">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2025" SeriesMax="R2025" />
+		<ComponentEntry AppName="DockablePaneDemo 2025"
+						Version="1.0.0"
+						ModuleName="./Contents/2025/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2025" />
+	</Components>
+
+		<Components Description="2026">
+		<RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2026" SeriesMax="R2026" />
+		<ComponentEntry AppName="DockablePaneDemo 2026"
+						Version="1.0.0"
+						ModuleName="./Contents/2026/DockablePaneDemo.addin"
+						AppDescription="Add-ins Revit 2026" />
+	</Components>
+
+</ApplicationPackage>

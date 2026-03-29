@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+    <AddIn Type="Application">
+		<Name>DockablePaneDemo</Name>
+		<Assembly>DockablePaneDemo\DockablePaneDemo.1.0.0.dll</Assembly>
+        <AddInId>ea50694b-922c-4b29-b292-467b8e1d54bc</AddInId>
+		<FullClassName>DockablePaneDemo.App</FullClassName>
+        <VendorId>Cazorlas</VendorId>
+        <VendorDescription>https://paperengineer.runasp.net/</VendorDescription>
+        <VendorEmail>trinhvutuanhung@gmail.com</VendorEmail>
+    </AddIn>
+</RevitAddIns>
